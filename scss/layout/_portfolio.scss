@@ -1,0 +1,55 @@
+#portfolio,
+#skills {
+	max-width: 90%;
+	padding: 10px 15px;
+	margin: 0 auto;
+	@media (min-width: 768px) {
+		display: block;
+		margin: 0 auto;
+	}
+}
+
+.portfolio-img {
+	max-width: 80%;
+	padding: 10px 15px;
+}
+
+
+#main-image {
+	max-width: 40%;
+	border: $thick solid $off-black;
+	@include tablet {
+		float: right;
+		max-width: 20%;
+		margin: 10px 30px 10px;
+		clear: both;
+	}
+}
+
+#intro-paragraph {
+	@include tablet {
+		text-align: left;
+		font-size: $sml-header;
+	}
+}
+
+.tile {
+	@include tablet {
+		display: inline-block;
+		text-align: center;
+		max-width: 48%;
+		margin: 0 auto;
+		vertical-align: top;
+	}
+	@include desktop {
+		max-width: 33%;
+	}
+}
+
+.clearfix::after {
+		content: "";
+		display: table;
+		clear: both;
+}
+
+

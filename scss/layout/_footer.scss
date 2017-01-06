@@ -1,0 +1,42 @@
+hr {
+	margin-top: 40px;
+	max-width: 90%;
+}
+
+footer {
+	margin: 10px auto 40px;
+	padding: 10px 0 40px 0;
+}
+
+#footer-name {
+	float: left;
+}
+#back-to-top {
+	float: right;
+    @include tablet {
+    	display: none;
+    }
+}
+
+#footer-nav-list ul {
+	display: none; 
+	@include tablet {
+		display: inline;
+		width: 60%;
+		float: right;
+		list-style: none;
+		text-align: right;
+		padding-right: 15px;
+    } 
+	li {
+		@include tablet {
+			width: 100%;
+			display: inline;
+			padding: 10px;
+		    background-color: $light-taupe;
+		    opacity: .8;
+		    border-radius: 4px;
+		    @include gray-border;;
+		}
+	}
+}

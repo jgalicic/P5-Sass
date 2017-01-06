@@ -1,0 +1,56 @@
+.main-header .name {
+	@include desktop {
+		padding-left: 20px;
+		display: inline;
+	}
+}
+
+#header-nav-list {
+    @include desktop {
+	    display: inline;
+	    }
+
+    ul {
+	    width: 80%;
+	    display: block;
+	    margin: 0 auto;
+	    list-style: none;
+	    padding: 0 5px 10px;
+	    @include tablet {
+            padding: 10px 15px 10px;
+		    text-align: center;
+	    }
+	    @include desktop {
+	    	display: inline;
+			width: 60%;
+			float: right;
+			list-style: none;
+			text-align: right;
+			padding-right: 15px;
+			margin-top: 20px;
+	    }
+    }
+
+    ul li {
+		width: 100%;
+		background-color: $light-taupe; 
+		opacity: .8;
+		text-align: center;
+		border-radius: 4px;
+		@include gray-border;
+		display: block;
+		margin: 5px auto;
+		padding: 5px 0 5px;
+		@include tablet {
+			display: inline;
+			margin: 0 15px;
+			padding: 5px;
+		}
+		@include desktop {
+			width: 100%;
+			display: inline;
+			padding: 10px;
+			opacity: .8;
+		}
+    }
+}

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Justin Galicic's Portfolio Page</title>
+  <link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="scss/application.css">
+</head>
+
+<body>
+  <header class="main-header">
+    <h1 class="name"><a href="#">Justin Galicic</a></h1>
+    <nav id="header-nav-list">
+          <div class="menu-toggle"><img src="images/menu.png" height="32" alt="toggle menu"/></div>
+      <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#portfolio">PORTFOLIO</a></li>
+        <li><a href="#skills">SKILLS</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+
+    </nav>
+
+  </header>
+
+  <img src="images/me.png" id="main-image" alt="Image of Justin Galicic">
+
+  <p class="clearfix" id="intro-paragraph">Hi! I'm a front-end developer who loves responsive design and css.  I am working on completing a degree in front-end web development at Treehouse and I am excited to put all my skills to use!
+  </p>
+
+  <section id="portfolio">
+  <h2>PORTFOLIO</h2>
+
+  <div class="tile">
+    <img src="images/portfolio-1.png" class="portfolio-img" alt="Marketing">
+    <h3>Marketing Page</h3>
+    <div class="desc">This project shows the front page of a marketing website meant for a specific business I'm interested in.</div>
+  </div>
+
+  <div class="tile">
+    <img src="images/portfolio-2.png" class="portfolio-img" alt="Search">
+    <h3>Search Page</h3>
+    <div class="desc">This project searches through a specific database to find information that the user is trying to look up.</div>
+  </div>
+
+  <div class="tile">
+    <img src="images/portfolio-3.png" class="portfolio-img" alt="Travel app">
+    <h3>Travel App</h3>
+    <div class="desc">This project shows the front page of a marketing website meant for a specific business I'm interested in.</div>
+  </div>
+
+  <div class="tile">
+    <img src="images/portfolio-4.png" class="portfolio-img" alt="Map of favorite spots">
+    <h3>Map of Favorite Spots</h3>
+    <div class="desc">This project uses mapping APIs to plot points for my favorite spots in the city for a do-it-yourself walking tour.</div>
+  </div>
+
+  <div class="tile">
+    <img src="images/portfolio-5.png" class="portfolio-img" alt="Photo gallery">
+    <h3>Photo Gallery</h3>
+    <div class="desc">This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</div>
+  </div>
+
+  <div class="tile">
+    <img src="images/portfolio-6.png" class="portfolio-img" alt="Calculator">
+    <h3>Calculator</h3>
+    <div class="desc">Someone can enter in the numbers they want, and press the big blue button and get the result.</div>
+  </div>
+
+  </section>
+
+  <section id="skills">
+    <h2>SKILLS</h2>
+    <div class="tile">
+      <img src="images/portfolio-7.png" class="portfolio-img" alt="Nice image">
+      <h3>I'm Really Nice</h3>
+      <div class="desc">According to a recent poll.</div>
+    </div>
+
+    <div class="tile">
+      <img src="images/portfolio-8.png" class="portfolio-img" alt="Fast image">
+      <h3>I'm Very Fast</h3>
+      <div class="desc">Especially in time-lapse.</div>
+    </div>
+
+    <div class="tile">
+      <img src="images/portfolio-9.png" class="portfolio-img" alt="Creative image">
+      <h3>I'm Super Creative</h3>
+      <div class="desc">I can think outside the &#60;body&#62;.</div>
+    </div>
+
+    <div class="tile">
+      <img src="images/portfolio-10.png" class="portfolio-img" alt="Well-designed image">
+      <h3>I Design Things Well</h3>
+      <div class="desc">I care about U and I.</div>
+    </div>
+
+    <div class="tile">
+      <img src="images/portfolio-11.png" class="portfolio-img" alt="Humble image">
+      <h3>I'm Pretty Humble</h3>
+      <div class="desc">I don't think any <a href="https://www.youtube.com/watch?v=j13oJajXx0M">songs</a> are about me.</div>
+    </div>
+
+    <div class="tile">
+      <img src="images/portfolio-12.png" class="portfolio-img" alt="Broken image">
+      <h3>I'm Good at Breaking Things</h3>
+      <div class="desc">Simply failing upward.</div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <br>
+    <h2>CONTACT</h2>
+    <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
+
+    <p>Phone  <strong> 206-304-1667</strong></p>
+    <p>Email  <strong> jgalicic@gmail.com</strong></p>
+  </section>
+
+  <hr>
+  <footer>
+    <p id="footer-name"><strong>&copy; 
+          <script type="text/javascript">
+            now = new Date
+            theYear=now.getYear()
+            if (theYear < 1900)
+            theYear=theYear+1900
+            document.write(theYear)
+          </script> Justin Galicic</strong></p>
+    <p id="back-to-top"><strong><a href="#">BACK TO TOP</a></strong></p>
+    <nav id="footer-nav-list">
+      <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#portfolio">PORTFOLIO</a></li>
+        <li><a href="#skills">SKILLS</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </nav>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/app.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>

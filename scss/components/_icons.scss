@@ -1,0 +1,7 @@
+.menu-toggle {
+	position: relative;
+	top: -8px;
+	@include desktop {
+		display: none;
+	}
+}

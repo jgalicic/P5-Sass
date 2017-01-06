@@ -1,0 +1,39 @@
+body {
+	line-height: 1.6;
+	background-color: $off-white;
+	margin: 5px auto;
+	max-width: 1024px;
+	background-image: url('../images/tess.jpg')
+}
+
+h1 {
+	width: 90%;
+	@extend %center;
+	text-align: center;
+	font-size: $big-header;
+}
+
+h2 {
+	@extend %text-center;
+	margin: 0 auto;
+	font-size: $med-header;
+}
+
+h3 {
+	@extend %text-center;
+	font-size: $sml-header;
+}
+
+a {
+	text-decoration: none;
+	color: $off-black;
+}
+
+img {
+	@extend %center;
+}
+
+p {
+	text-align: center;
+	padding: 0 20px;
+}
